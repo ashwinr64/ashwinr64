@@ -1,27 +1,14 @@
-Account age: **{{ ACCOUNT_AGE }}** years
+## GitHub Stats at a Glance
 
-Pushed **{{ COMMITS }}** commits
+**{{ ACCOUNT_AGE }}** years on GitHub | **{{ COMMITS }}** commits | **{{ STARS }}** stars received
 
-Opened **{{ ISSUES }}** issues
+### Contributions
+- **{{ REPOSITORIES }}** repositories owned
+- **{{ PULL_REQUESTS }}** pull requests submitted
+- **{{ CODE_REVIEWS }}** pull requests reviewed
 
-Submitted **{{ PULL_REQUESTS }}** pull requests
+### Top Languages
 
-Reviewed **{{ CODE_REVIEWS }}** pull requests
-
-Received **{{ STARS }}** stars
-
-Own **{{ REPOSITORIES }}** repositories
-
-Contributed to **{{ REPOSITORIES_CONTRIBUTED_TO }}** public repositories
-
-Top 8 most used languages across your repositories:
-
-{{ LANGUAGE_TEMPLATE_START }}
-![{{LANGUAGE_NAME}}](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor={{LANGUAGE_COLOR:uri}}&message={{LANGUAGE_NAME:uri}}%EF%B8%B1{{LANGUAGE_PERCENT:uri}}%25)
-{{ LANGUAGE_TEMPLATE_END }}
-
-Top 4 most used languages across your repositories:
-
-{{ LANGUAGE_TEMPLATE_START:max=4 }}
+{{ LANGUAGE_TEMPLATE_START:max=8 }}
 ![{{LANGUAGE_NAME}}](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor={{LANGUAGE_COLOR:uri}}&message={{LANGUAGE_NAME:uri}}%EF%B8%B1{{LANGUAGE_PERCENT:uri}}%25)
 {{ LANGUAGE_TEMPLATE_END }}
