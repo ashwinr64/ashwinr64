@@ -1,11 +1,11 @@
 ## GitHub Stats at a Glance
 
-**11** years on GitHub | **2227** commits | **78** stars received
+**11** years on GitHub | **2214** commits | **78** stars received
 
 ### Contributions
 - **78** repositories owned
-- **77** pull requests submitted
-- **4** pull requests reviewed
+- **78** pull requests submitted
+- **5** pull requests reviewed
 
 ### Top Languages
 
